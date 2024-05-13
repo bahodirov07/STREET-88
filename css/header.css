@@ -1,0 +1,74 @@
+@import url(fonts.css);
+@import url(common.css);
+@import url(main.css);
+@import url(footer.css);
+@import url( media.css);
+
+.add{
+    background: #000;
+}
+.add .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 18px; 
+    padding-bottom: 18px;
+}
+.proesd{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.add_list{
+    display: flex;
+    gap: 20px;
+}
+.proesd_txt{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.add_item{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.nav{
+    background: #000;
+    border-top: 1px solid rgba(125, 115, 115, 0.5);
+    border-bottom: 1px solid rgba(125, 115, 115, 0.5);
+}
+.nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin: 6px 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 83%;
+    text-align: center;
+    color: #fff;
+    border: 4px solid #06600f;
+    border-radius: 4px;
+    padding: 8px 14px 8px 14px;
+    background: rgba(10, 148, 24, 0.75);
+}
+.nav_list{
+    display: flex;
+}
+.nav_link{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    color: #fff;
+    padding: 22px 14px;
+}
+.nav_link:hover{
+    background: rgba(105, 207, 23, 0.75);
+    transition: 0.1s;
+}
